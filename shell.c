@@ -8,7 +8,7 @@ void signalHandler(int signalNumber)
 {
 	if (signalNumber == SIGINT)
 	{
-		_printstr("\n#cisfun$ ");
+		_printstr("\n$ ");
 	}
 }
 
